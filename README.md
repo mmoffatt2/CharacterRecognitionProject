@@ -24,7 +24,7 @@ In order to implement uniform sampling, I made use of the Traja library. Their r
 
 Here is an example of a character input:
 
-![image](character_input.png)
+![image](ProjectImages/character_input.png)
 
 Here is the same input resampled to have 100 points:
 
