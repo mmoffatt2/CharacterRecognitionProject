@@ -87,7 +87,7 @@ Graph of Incorrect Character (“‘“):
 
 Furthermore, when given an input of just characters of the lowercase alphabet, the model produced a training accuracy of 96% and a validation/test accuracy of 87%.
 
-![image10](character_'.png)
+![image10](smaller_data_set.png)
 
 
 
