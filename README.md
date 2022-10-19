@@ -28,7 +28,7 @@ Here is an example of a character input:
 
 Here is the same input resampled to have 100 points:
 
-![image2](resampled.png)
+![image2](ProjectImages/resampled.png)
 
 ### Normalization
 The second method proposed in the paper is to normalize each character. The goal of normalization is to transform features to be on a similar scale which can improve model accuracy. Normalization keeps the neural network from being skewed by characters with very large or small point values. I decided to have all the characters fit in a range from 0 to 1. 
@@ -49,7 +49,7 @@ To implement the neural network, I followed instructions from the Andrew Ng cour
 For the loss function, I tested using sparse categorical crossentropy and categorical crossentropy. This was because one-hot encoding only worked with categorical crossentropy. However, I didn’t find any notable difference in validation accuracy with either approach. I also tested fine-tuning other Neural Network hyperparameters like the number of hidden layers, number of neurons, and learning rates to see which produces the most accurate predictions.
 Overall, I found that for the entire data set of 11640 characters, the model seemed to converge at a validation/test accuracy of 65%.
 
-![image3](model_accuracy.png)
+![image3](ProjectImages/model_accuracy.png)
 
 While this accuracy seems low, through manually looking through the output, I found that the Neural Network made mistakes with similarly shaped characters. Given that there are 97 different possible character types, I found that the model’s mistakes seemed to be reasonable errors.
 
@@ -59,35 +59,35 @@ Guessed a “U” for a “c”:
 
 Graph of Inputted Character (“c”):		
 
-![image4](character_c.png)  
+![image4](ProjectImages/character_c.png)  
 
 Graph of Incorrect Character (“U”):
 
-![image5](character_u.png)
+![image5](ProjectImages/character_u.png)
 
 Guessed a “q” for a “g”:
 
 Graph of Inputted Character (“g”):
 
-![image6](character_g.png)
+![image6](ProjectImages/character_g.png)
 
 Graph of Incorrect Character (“q”):
 
-![image7](character_q.png)
+![image7](ProjectImages/character_q.png)
 
 Guessed a “‘’ for a “i”:
 
 Graph of Inputted Character (“i”):
 
-![image8](character_i.png)
+![image8](ProjectImages/character_i.png)
 
 Graph of Incorrect Character (“‘“):
 
-![image9](character_'.png)
+![image9](ProjectImages/character_'.png)
 
 Furthermore, when given an input of just characters of the lowercase alphabet, the model produced a training accuracy of 96% and a validation/test accuracy of 87%.
 
-![image10](smaller_data_set.png)
+![image10](ProjectImages/smaller_data_set.png)
 
 
 
