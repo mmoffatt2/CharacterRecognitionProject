@@ -12,7 +12,7 @@ Here is a link to the paper used as reference for this project:
 
 ![image0](ProjectImages/handwritingRecognition.png)
 
-**Fig 1.** Illustration of how online pen strokes work from: Matcha, Anil Chandra Naidu. “Handwriting Recognition with ML (an in-Depth Guide).” Nanonets AI &amp; Machine Learning Blog, Nanonets AI &amp; Machine Learning Blog, 20 June 2022, https://nanonets.com/blog/handwritten-character-recognition/. 
+**Fig 1.** Illustration of how online pen strokes work from: Matcha, Anil Chandra Naidu. “Handwriting Recognition with ML (an in-Depth Guide).” Nanonets AI &amp; Machine Learning Blog, Nanonets AI &amp; Machine Learning Blog, 20 June 2022, https:​//nanonets.com/blog/handwritten-character-recognition/. 
 
 
 ![image11](ProjectImages/uji_input_example.PNG)
