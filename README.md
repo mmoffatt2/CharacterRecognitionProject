@@ -17,7 +17,7 @@ Here is a link to the paper used as reference for this project:
 
 ![image11](ProjectImages/uji_input_example.PNG)
 
-**Fig 2.** Example input of pen strokes for the character a.
+**Fig 2.** Example input of pen strokes for the character 'a'.
 
 ## Preprocessing Data
 
@@ -78,10 +78,7 @@ Guessed a “U” for a “c”:
 ![image4](ProjectImages/character_c_new.png)  
 
 **Fig 6.** Graph of inputted character (“c”).
-
-
 ![image5](ProjectImages/character_U_ne.png)
-
 **Fig 7.** Graph of inputted character (“U”).
 
 Guessed a “q” for a “g”:
