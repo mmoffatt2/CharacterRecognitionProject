@@ -49,7 +49,7 @@ To implement the neural network, I followed instructions from the Andrew Ng cour
 For the loss function, I tested using sparse categorical crossentropy and categorical crossentropy. This was because one-hot encoding only worked with categorical crossentropy. However, I didn’t find any notable difference in validation accuracy with either approach. I also tested fine-tuning other Neural Network hyperparameters like the number of hidden layers, number of neurons, and learning rates to see which produces the most accurate predictions.
 Overall, I found that for the entire data set of 11640 characters, the model seemed to converge at a validation/test accuracy of 65%.
 
-![image3](ProjectImages/model_accuracy.png)
+![image3](ProjectImages/model_accuracy_new.png)
 
 While this accuracy seems low, through manually looking through the output, I found that the Neural Network made mistakes with similarly shaped characters. Given that there are 97 different possible character types, I found that the model’s mistakes seemed to be reasonable errors.
 
@@ -87,7 +87,7 @@ Graph of Incorrect Character (“‘“):
 
 Furthermore, when given an input of just characters of the lowercase alphabet, the model produced a training accuracy of 96% and a validation/test accuracy of 87%.
 
-![image10](ProjectImages/smaller_data_set.png) 
+![image10](ProjectImages/smaller_data_set_new.png) 
 
 
 
