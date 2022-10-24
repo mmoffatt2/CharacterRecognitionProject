@@ -59,31 +59,31 @@ Guessed a “U” for a “c”:
 
 Graph of Inputted Character (“c”):		
 
-![image4](ProjectImages/character_c.png)  
+![image4](ProjectImages/character_c_new.png)  
 
 Graph of Incorrect Character (“U”):
 
-![image5](ProjectImages/character_u.png)
+![image5](ProjectImages/character_U_new.png)
 
 Guessed a “q” for a “g”:
 
 Graph of Inputted Character (“g”):
 
-![image6](ProjectImages/character_g.png)
+![image6](ProjectImages/character_g_new.png)
 
 Graph of Incorrect Character (“q”):
 
-![image7](ProjectImages/character_q.png)
+![image7](ProjectImages/character_q_new.png)
 
 Guessed a “‘’ for a “i”:
 
 Graph of Inputted Character (“i”):
 
-![image8](ProjectImages/character_i.png)
+![image8](ProjectImages/character_i_new.png)
 
 Graph of Incorrect Character (“‘“):
 
-![image9](ProjectImages/character_'.png)
+![image9](ProjectImages/character_'_new.png)
 
 Furthermore, when given an input of just characters of the lowercase alphabet, the model produced a training accuracy of 96% and a validation/test accuracy of 87%.
 
