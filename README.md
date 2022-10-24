@@ -63,7 +63,7 @@ Graph of Inputted Character (“c”):
 
 Graph of Incorrect Character (“U”):
 
-![image5](ProjectImages/character_U_new.png)
+![image5](ProjectImages/character_U_ne.png)
 
 Guessed a “q” for a “g”:
 
