@@ -26,14 +26,14 @@ Here is an example of a character input:
 
 ![image](ProjectImages/character_input_new.png)
 
-Fig 1. Plot of input points from ujipenchars2.txt data set for the character a.
+**Fig 1.** Plot of input points from ujipenchars2.txt data set for the character a.
 
 
 Here is the same input resampled to have 100 points:
 
 ![image2](ProjectImages/resampled_new.png)
 
-Fig 2. Plot of resampled points for the character a.
+**Fig 2.** Plot of resampled points for the character a.
 
 ### Normalization
 The second method proposed in the paper is to normalize each character. The goal of normalization is to transform features to be on a similar scale which can improve model accuracy. Normalization keeps the neural network from being skewed by characters with very large or small point values. I decided to have all the characters fit in a range from 0 to 1. 
@@ -56,7 +56,7 @@ Overall, I found that for the entire data set of 11640 characters, the model see
 
 ![image3](ProjectImages/model_accuracy_new.png)
 
-Fig 3. Plot of accuracy for model with entire data set.
+**Fig 3.** Plot of accuracy for model with entire data set.
 
 
 While this accuracy seems low, through manually looking through the output, I found that the Neural Network made mistakes with similarly shaped characters. Given that there are 97 different possible character types, I found that the model’s mistakes seemed to be reasonable errors.
@@ -68,40 +68,40 @@ Guessed a “U” for a “c”:
 
 ![image4](ProjectImages/character_c_new.png)  
 
-Fig 4. Graph of inputted character (“c”).
+**Fig 4.** Graph of inputted character (“c”).
 
 
 ![image5](ProjectImages/character_U_ne.png)
 
-Fig 5. Graph of inputted character (“U”).
+**Fig 5.** Graph of inputted character (“U”).
 
 Guessed a “q” for a “g”:
 
 
 ![image6](ProjectImages/character_g_new.png)
 
-Fig 6. Graph of inputted character (“g”).
+**Fig 6.** Graph of inputted character (“g”).
 
 ![image7](ProjectImages/character_q_new.png)
 
-Fig 7. Graph of inputted character (“q”).
+**Fig 7.** Graph of inputted character (“q”).
 
 Guessed a “‘’ for a “i”:
 
 
 ![image8](ProjectImages/character_i_new.png)
 
-Fig 8. Graph of inputted character (“i”).
+**Fig 8.** Graph of inputted character (“i”).
 
 ![image9](ProjectImages/character_'_new.png)
 
-Fig 9. Graph of inputted character (“'”).
+**Fig 9.** Graph of inputted character (“'”).
 
 Furthermore, when given an input of just characters of the lowercase alphabet, the model produced a training accuracy of 96% and a validation/test accuracy of 87%.
 
 ![image10](ProjectImages/smaller_data_set_new.png) 
 
-Fig 10. Plot of accuracy for model with smaller data set.
+**Fig 10.** Plot of accuracy for model with smaller data set.
 
 
 
