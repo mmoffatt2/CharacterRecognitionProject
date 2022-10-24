@@ -35,14 +35,14 @@ Here is an example of a character input:
 
 ![image](ProjectImages/character_input_new.png)
 
-**Fig 3.** Plot of input points from ujipenchars2.txt data set for the character a.
+**Fig 3.** Plot of input points from ujipenchars2.txt data set for the character 'a'.
 
 
 Here is the same input resampled to have 100 points:
 
 ![image2](ProjectImages/resampled_new.png)
 
-**Fig 4.** Plot of resampled points for the character a.
+**Fig 4.** Plot of resampled points for the character 'a'.
 
 ### Normalization
 The second method proposed in the paper is to normalize each character. The goal of normalization is to transform features to be on a similar scale which can improve model accuracy. Normalization keeps the neural network from being skewed by characters with very large or small point values. I decided to have all the characters fit in a range from 0 to 1. 
