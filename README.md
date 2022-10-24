@@ -24,13 +24,14 @@ In order to implement uniform sampling, I made use of the Traja library. Their r
 
 Here is an example of a character input:
 
-![image](ProjectImages/character_input.png)
+![image](ProjectImages/character_input_new.png)
 
 Fig 1. Plot of input points from ujipenchars2.txt data set for the character a.
 
+
 Here is the same input resampled to have 100 points:
 
-![image2](ProjectImages/resampled.png)
+![image2](ProjectImages/resampled_new.png)
 
 Fig 2. Plot of resampled points for the character a.
 
@@ -55,43 +56,52 @@ Overall, I found that for the entire data set of 11640 characters, the model see
 
 ![image3](ProjectImages/model_accuracy_new.png)
 
+Fig 3. Plot of accuracy for model with entire data set.
+
+
 While this accuracy seems low, through manually looking through the output, I found that the Neural Network made mistakes with similarly shaped characters. Given that there are 97 different possible character types, I found that the model’s mistakes seemed to be reasonable errors.
 
 Examples of character mistakes:
 
 Guessed a “U” for a “c”:
-
-Graph of Inputted Character (“c”):		
+	
 
 ![image4](ProjectImages/character_c_new.png)  
 
-Graph of Incorrect Character (“U”):
+Fig 4. Graph of inputted character (“c”).
+
 
 ![image5](ProjectImages/character_U_ne.png)
 
+Fig 5. Graph of inputted character (“U”).
+
 Guessed a “q” for a “g”:
 
-Graph of Inputted Character (“g”):
 
 ![image6](ProjectImages/character_g_new.png)
 
-Graph of Incorrect Character (“q”):
+Fig 6. Graph of inputted character (“g”).
 
 ![image7](ProjectImages/character_q_new.png)
 
+Fig 7. Graph of inputted character (“q”).
+
 Guessed a “‘’ for a “i”:
 
-Graph of Inputted Character (“i”):
 
 ![image8](ProjectImages/character_i_new.png)
 
-Graph of Incorrect Character (“‘“):
+Fig 8. Graph of inputted character (“i”).
 
 ![image9](ProjectImages/character_'_new.png)
+
+Fig 9. Graph of inputted character (“'”).
 
 Furthermore, when given an input of just characters of the lowercase alphabet, the model produced a training accuracy of 96% and a validation/test accuracy of 87%.
 
 ![image10](ProjectImages/smaller_data_set_new.png) 
+
+Fig 10. Plot of accuracy for model with smaller data set.
 
 
 
