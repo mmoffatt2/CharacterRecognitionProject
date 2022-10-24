@@ -100,7 +100,7 @@ Guessed a “‘’ for a “i”:
 
 ![image8](ProjectImages/character_i_new.png)
 
-**Fig 19.** Graph of inputted character (“i”).
+**Fig 10.** Graph of inputted character (“i”).
 
 ![image9](ProjectImages/character_'_new.png)
 
