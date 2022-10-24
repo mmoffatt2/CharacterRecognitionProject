@@ -25,11 +25,13 @@ In order to implement uniform sampling, I made use of the Traja library. Their r
 Here is an example of a character input:
 
 ![image](ProjectImages/character_input.png)
+
 Fig 1. Plot of input points from ujipenchars2.txt data set for the character a.
 
 Here is the same input resampled to have 100 points:
 
 ![image2](ProjectImages/resampled.png)
+
 Fig 2. Plot of resampled points for the character a.
 
 ### Normalization
