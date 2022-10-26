@@ -77,7 +77,7 @@ While this accuracy seems low, through manually looking through the output, I fo
 
 Examples of character mistakes:
 
-Guessed a “U” for a “c”:
+**Guessed a “U” for a “c”:**
 	
 
 ![image4](ProjectImages/character_c_new.png) 
@@ -88,7 +88,7 @@ Guessed a “U” for a “c”:
 
 **Fig 8.** Graph of inputted character (“U”).
 
-Guessed a “q” for a “g”:
+**Guessed a “q” for a “g”:**
 
 
 ![image6](ProjectImages/character_g_new.png)
@@ -99,7 +99,7 @@ Guessed a “q” for a “g”:
 
 **Fig 10.** Graph of inputted character (“q”).
 
-Guessed a “‘’ for a “i”:
+**Guessed a “‘’ for a “i”:**
 
 
 ![image8](ProjectImages/character_i_new.png)
