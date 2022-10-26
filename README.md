@@ -60,6 +60,7 @@ Also, the data was stratified which means that characters were distributed evenl
 ## Implementing Neural Network
 
 ![image12](ProjectImages/dense_neural_network.png)
+
 **Fig 5.** Illustration of dense neural network architecture from: Publications, Manning. “Neural Network Architectures.” Manning, 27 July 2019, https://freecontent.manning.com/neural-network-architectures/. 
 
 To implement the neural network, I followed instructions from the Andrew Ng course. I used Relu activation functions for the hidden layers and Softmax for the output layer. Also, I flattened the input of points into a 1D array. 
