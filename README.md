@@ -75,11 +75,9 @@ Examples of character mistakes:
 Guessed a “U” for a “c”:
 	
 
-![image4](ProjectImages/character_c_new.png)  	![image5](ProjectImages/character_U_ne.png)
+![image4](ProjectImages/character_c_new.png)  			![image5](ProjectImages/character_U_ne.png)
 
-**Fig 6.** Graph of inputted character (“c”).
-
-**Fig 7.** Graph of inputted character (“U”).
+**Fig 6.** Graph of inputted character (“c”).			**Fig 7.** Graph of inputted character (“U”).
 
 Guessed a “q” for a “g”:
 
