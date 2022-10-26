@@ -77,7 +77,7 @@ Guessed a “U” for a “c”:
 
 ![image4](ProjectImages/character_c_new.png)  	&emsp;&emsp;&emsp;&emsp;	![image5](ProjectImages/character_U_ne.png)
 
-**Fig 6.** Graph of inputted character (“c”).	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;	**Fig 7.** Graph of inputted character (“U”).
+**Fig 6.** Graph of inputted character (“c”).	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Fig 7.** Graph of inputted character (“U”).
 
 Guessed a “q” for a “g”:
 
